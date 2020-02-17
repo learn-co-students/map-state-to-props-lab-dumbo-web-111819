@@ -1,4 +1,5 @@
-export default function manageUsers(state = {
+export default function manageUsers(
+  state = {
   users: [],
 }, action){
   switch (action.type) {
